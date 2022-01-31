@@ -7,7 +7,7 @@ body{
 
 header{
     min-height: 50px;
-    /* border: 2px dashed green; */
+    border: 2px dashed green; 
 }
 footer{
     position: relative;;
@@ -55,7 +55,7 @@ footer{
 }
 .search{
     position: absolute;
-    top: 12px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
 }
 
