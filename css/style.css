@@ -43,4 +43,19 @@ footer{
 .w-15{
     width: 15%;
 }
+.bell{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.search{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
 

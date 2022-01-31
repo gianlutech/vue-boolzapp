@@ -19,8 +19,8 @@
     <div id="root">
         <div class="container">
             <div class="row">
-                <div class="col-4 bg-header">
-                    <header class="d-flex my-3">
+                <div class="col-4 bg-header p-0">
+                    <header class="d-flex my-3 px-2">
                         <div class="d-flex align-items-center">
                             <figure class="w-15 m-0">
                                 <img class="img-fluid rounded-circle" src="img/avatar_io.jpg" alt="">
@@ -33,12 +33,18 @@
                             <i class="fas fa-ellipsis-v mx-2"></i>
                         </div>
                     </header>
-                    <div class="notice bg-blue">
-                        <i class="far fa-bell-slash"></i>
-                        <p class="my-0"><strong>Ricevi notifiche di nuovi messaggi</strong></p>
-                        <p class="text-secondary my-0"><u>Attiva notifiche desktop</u></p>
+                    <div class="notice bg-blue d-flex p-2">
+                        <div class="bell"><i class="far fa-bell-slash"></i></div>
+                        <div>
+                            <p class="my-0"><strong>Ricevi notifiche di nuovi messaggi</strong></p>
+                            <p class="text-secondary my-0"><u>Attiva notifiche desktop</u></p>
+                        </div>
                     </div>
-                    <div class="search">barra di ricerca</div>
+                    <div class="mb-3 p-relative">
+                        <i class="fas fa-search search text-secondary"></i>
+                        <input type="text" class="form-control px-5" id="formGroupExampleInput"
+                            placeholder="Cerca o inizia una nuova chat">
+                    </div>
                     <ul>
                         <li>contatto</li>
                         <li>contatto</li>
