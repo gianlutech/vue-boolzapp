@@ -82,6 +82,9 @@ footer{
 .chat{
     background-image: url(../img/mine.jpg);   
 }
+#chat-list li:hover{
+background-color: gainsboro;
+}
 
 /* MESSAGES */
 
@@ -105,6 +108,11 @@ footer{
 
 .message-container.received .message{
     background-color: white;
+}
+time{
+    font-size: 12px;
+    color: grey;
+    text-align: right;
 }
 
 
