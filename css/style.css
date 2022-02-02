@@ -86,6 +86,11 @@ footer{
 background-color: gainsboro;
 }
 
+#chat-list li.active{
+background-color: gainsboro;
+}
+
+
 /* MESSAGES */
 
 .message-container{

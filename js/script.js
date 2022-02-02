@@ -74,7 +74,7 @@ const root = new Vue({
                 ],
             },
             {
-                name: 'Luisa',
+                name: 'Leonardo',
                 avatar: '_4',
                 visible: true,
                 messages: [{
