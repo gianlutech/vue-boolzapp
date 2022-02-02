@@ -107,8 +107,9 @@
                             <i class="far fa-smile fs-4"></i>
                         </div>
                         <div class="input-group w-75">
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Scrivi un messaggio"
+                                aria-label="Username" aria-describedby="basic-addon1" v-model="newMessage"
+                                @keyup.enter="sendMessage">
                         </div>
                         <div class="mic" role="button">
                             <i class="fas fa-microphone fs-4"></i>

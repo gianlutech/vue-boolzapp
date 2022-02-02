@@ -4,6 +4,7 @@ console.log('Vue ok', Vue);
 const root = new Vue({
     el: '#root',
     data: {
+        newMessage: '',
         currentIndex: 0,
         user: {
             name: 'Barbara',
@@ -94,6 +95,10 @@ const root = new Vue({
     methods: {
         setCurrentIndex(clickedNewIndex) {
             this.currentIndex = clickedNewIndex;
+        },
+
+        sendMessage() {
+
         }
     },
 });
