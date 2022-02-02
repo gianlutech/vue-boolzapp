@@ -91,7 +91,9 @@ const root = new Vue({
             },
         ],
     },
-    metods: {
-
-    }
+    methods: {
+        setCurrentIndex(clickedNewIndex) {
+            this.currentIndex = clickedNewIndex;
+        }
+    },
 });
