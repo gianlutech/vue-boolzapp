@@ -42,7 +42,7 @@
                     </header>
                     <!-- NOTICE -->
                     <div class="notice bg-blue d-flex p-2">
-                        <div class="bell"><i class="fas fa-bell-slash"></i></div>
+                        <div class="bell"><i class="fas fa-bell-slash" role="button"></i></div>
                         <div class="px-2">
                             <p class="my-0"><strong>Ricevi notifiche di nuovi messaggi</strong></p>
                             <p class="text-secondary my-0" role="button"><u>Attiva notifiche desktop</u></p>
@@ -50,14 +50,14 @@
                     </div>
                     <!-- SEARCH BAR -->
                     <div class=" p-relative p-2">
-                        <i class="fas fa-search search text-secondary"></i>
+                        <i class="fas fa-search search text-secondary" role="button"></i>
                         <input type="text" class="form-control px-5" id="formGroupExampleInput"
-                            placeholder="Cerca o inizia una nuova chat">
+                            placeholder="Cerca o inizia una nuova chat" v-model="searchContact">
                     </div>
                     <!-- CHAT LIST -->
 
                     <ul id="chat-list" class="py-3">
-                        <li v-for="(contact, index) in contacts" class="text-decoration-none py-2"
+                        <li v-for="(contact, index) in contacts" class="text-decoration-none p-3"
                             :class="{active: index === currentIndex}" role="button" @click="setCurrentIndex(index)">
                             <div class="d-flex align-items-center ">
                                 <figure class="w-15 m-0 d-flex ">

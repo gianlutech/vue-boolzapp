@@ -77,10 +77,13 @@ footer{
     height: 100%;
     background-color: white;
     list-style-type: none;
+    overflow: auto;
+    padding-inline-start: 0px;
 }
 
 .chat{
-    background-image: url(../img/mine.jpg);   
+    background-image: url(../img/mine.jpg);
+    overflow: auto;   
 }
 #chat-list li:hover{
 background-color: gainsboro;
@@ -120,5 +123,22 @@ time{
     text-align: right;
 }
 
+/* ICON */
+
+.mic:hover{
+    color: red;
+    
+}
+.smile:hover{
+    color: rgb(255, 255, 8);
+    
+    
+}
+.fas:hover{
+    transform: scale(1.5);
+}
+.far:hover{
+    transform: scale(1.5);
+}
 
 

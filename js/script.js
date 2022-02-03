@@ -7,6 +7,7 @@ const root = new Vue({
     data: {
         newText: '',
         currentIndex: 0,
+        searchContact: '',
         user: {
             name: 'Barbara',
             avatar: '_io'
@@ -118,6 +119,12 @@ const root = new Vue({
 
             this.contacts[this.currentIndex].messages.push(newMessage);
         },
+
+        filteredList() {
+            return this.contacts[this.currentIndex].filter(contact => {
+                return contact.name.toLowerCase().includes(this.searchContact.toLowerCase())
+            })
+        }
 
     },
 });
